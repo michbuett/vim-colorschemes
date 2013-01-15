@@ -26,19 +26,19 @@ hi Cursor	guibg=khaki guifg=slategrey
 "hi DiffDelete
 "hi DiffText
 "hi ErrorMsg
-hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
-hi Folded	guibg=grey30 guifg=gold
-hi FoldColumn	guibg=grey30 guifg=tan
-hi IncSearch	guifg=slategrey guibg=khaki
-"hi LineNr
-hi ModeMsg	guifg=goldenrod
-hi MoreMsg	guifg=SeaGreen
-hi NonText	guifg=LightBlue guibg=grey30
-hi Question	guifg=springgreen
-hi Search	guibg=peru guifg=wheat
-hi SpecialKey	guifg=yellowgreen
-hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
+hi VertSplit    guibg=#c2bfa5 guifg=grey50 gui=none
+hi Folded       guibg=grey30 guifg=gold
+hi FoldColumn   guibg=grey30 guifg=tan
+hi IncSearch    guifg=slategrey guibg=khaki
+hi LineNr       guifg=grey50
+hi ModeMsg      guifg=goldenrod
+hi MoreMsg      guifg=SeaGreen
+hi NonText      guifg=LightBlue guibg=grey30
+hi Question     guifg=springgreen
+hi Search       guibg=peru guifg=wheat
+hi SpecialKey   guifg=yellowgreen
+"hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
+"hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Title	guifg=indianred
 hi Visual	gui=none guifg=khaki guibg=olivedrab
 "hi VisualNOS
@@ -47,6 +47,9 @@ hi WarningMsg	guifg=salmon
 "hi Menu
 "hi Scrollbar
 "hi Tooltip
+
+hi Pmenu        guibg=grey30
+hi PmenuSel     guibg=grey40
 
 " syntax highlighting groups
 hi Comment	 guifg=SkyBlue
